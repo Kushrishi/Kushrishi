@@ -1,39 +1,53 @@
 # Hi, I'm Kush Rishi
 
-I'm a Geomatics Engineering student interested in software development, data analysis, automation, robotics, and practical engineering tools.
+I'm a Geomatics Engineering graduate building a software portfolio focused on C++, Python, data systems, robotics, autonomy, GNSS, and practical engineering tools.
 
-I'm currently building independent projects that help me improve my skills in Python, C++, SQL, Linux, dashboards, and software engineering.
-
-## Technical Interests
-
-* Robotics and simulation
-* Python and C++ development
-* Data analysis and visualization
-* SQL and database-backed applications
-* Automation tools
-* Engineering software
-* Geospatial and civic open-data projects
+My background is in geomatics, navigation, geospatial data, and engineering problem-solving. I am currently strengthening my software fundamentals through independent projects that combine algorithms, data structures, object-oriented programming, simulation, automation, and data analysis.
 
 ## Current Focus
 
-I'm focused on building clean, well-documented projects using public datasets, sample data, and original code. My goal is to create practical tools that show strong problem-solving, software design, and technical communication.
+* C++ systems fundamentals
+* Robotics and simulation
+* GNSS and navigation software
+* Python data analysis and automation
+* SQL and database-backed applications
+* Dashboards and engineering data tools
+* Geospatial and civic open-data projects
 
-## Projects I'm Building
+## Featured Projects
 
-* Robotics simulation lab
-* C++ algorithms and systems practice
+### C++ Algorithms and Systems Practice
+
+A completed C++ foundations repository with 73 source files covering arrays, strings, vectors, functions, searching, sorting, recursion, data structures, object-oriented programming, file I/O, memory management, pointers, and applied mini projects.
+
+Key topics:
+
+* Algorithms and data structures
+* Classes, constructors, inheritance, and polymorphism
+* File input/output
+* Pointers, references, dynamic memory, and destructors
+* Linked lists, hash tables, priority queues, and tree traversal
+* Mini projects including a robot battery simulator and autonomous robot grid
+
+### Robotics Simulation Lab
+
+Planned next project focused on robotics-style simulation, grid movement, sensors, path planning, robot state tracking, and autonomy concepts.
+
+### Future Projects
+
 * City open-data dashboard
 * Computer vision object detection demo
-* Pet store inventory management system
+* Inventory management system
+* GNSS/data quality monitoring tools
 
-## Tech Stack
+## Technical Skills
 
-**Languages:** Python, C++, SQL, Java, Dart
+**Languages:** C++, Python, SQL, Java, Dart
+**Tools:** Git, GitHub, VS Code, Linux, MATLAB, ArcGIS Pro, AutoCAD
+**Areas:** Robotics, GNSS, navigation, geospatial data, data analysis, dashboards, automation, and engineering software
 
-**Tools:** Git, GitHub, Linux, MATLAB, ArcGIS Pro, AutoCAD
+## Goal
 
-**Areas:** Data analysis, dashboards, automation, robotics, software tools, engineering applications
+My goal is to build clean, well-documented technical projects that show strong fundamentals, practical problem-solving, and the ability to turn engineering ideas into working software.
 
-## Connect
-
-I'm always open to learning, building, and collaborating on useful technical projects.
+I'm especially interested in software roles connected to robotics, autonomy, navigation, GNSS, geospatial systems, and engineering tools.
