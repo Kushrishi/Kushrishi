@@ -43,6 +43,8 @@ Live demo: https://kushrishi.github.io/autonomy-simulation-lab/
 
 Repository: https://github.com/Kushrishi/autonomy-simulation-lab
 
+Release: https://github.com/Kushrishi/autonomy-simulation-lab/releases/tag/v1.0.0
+
 ### C++ Algorithms and Systems Practice
 
 A completed C++ foundations repository with 73 source files covering arrays, strings, vectors, functions, searching, sorting, recursion, data structures, object-oriented programming, file I/O, memory management, pointers, and applied mini projects.
