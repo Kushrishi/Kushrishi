@@ -86,8 +86,10 @@ The project will start with synthetic data and practical workflow tools before a
 
 ## Technical Skills
 
-**Languages:** C++, Python, TypeScript, SQL, Java, Dart
-**Tools:** Git, GitHub, VS Code, Linux, MATLAB, ArcGIS Pro, AutoCAD
+**Languages:** C++, Python, TypeScript, SQL, Java, Dart  
+
+**Tools:** Git, GitHub, VS Code, Linux, MATLAB, ArcGIS Pro, AutoCAD  
+
 **Areas:** Robotics, autonomy, GNSS, navigation, geospatial data, patient-support tools, data analysis, dashboards, simulation, telemetry, automation, and engineering software
 
 ## Goal
