@@ -1,21 +1,35 @@
 # Hi, I'm Kush Rishi
 
-I'm a Geomatics Engineering graduate building a software portfolio focused on C++, Python, TypeScript, robotics, autonomy, GNSS, geospatial systems, data tools, and practical engineering software.
+I'm a Geomatics Engineering graduate with a software portfolio focused on GNSS/PNT, robotics, autonomy, geospatial systems, C++, Python, TypeScript, full-stack applications, and practical engineering software.
 
-My background is in geomatics, navigation, geospatial data, and engineering problem-solving. I am strengthening my software fundamentals through independent projects that combine algorithms, data structures, simulation, automation, localization, telemetry, dashboards, and data analysis.
+My background is in geomatics, navigation, spatial data, surveying, geospatial analysis, and engineering problem-solving. I am building independent software projects that combine algorithms, simulation, localization, telemetry, dashboards, backend APIs, data quality workflows, and user-facing engineering tools.
 
 ## Current Focus
 
+* GNSS/PNT and navigation software
 * Robotics and autonomy simulation
-* GNSS and navigation software
-* C++ systems fundamentals
 * Python data analysis and automation
+* C++ systems fundamentals
 * TypeScript web applications
 * SQL and database-backed applications
-* Practical healthcare and patient-support tools
-* Geospatial and civic open-data projects
+* Full-stack product prototypes
+* Geospatial, healthcare, and engineering workflow tools
 
 ## Featured Projects
+
+### CareBridge Canada
+
+A patient-owned healthcare continuity platform prototype designed to help patients, families, and caregivers organize care information, prepare for appointments, track follow-up tasks, generate care handoffs, and avoid losing the thread between healthcare visits.
+
+The public version demonstrates the product vision through a React + TypeScript frontend, synthetic patient scenarios, source-note workflows, appointment preparation, after-visit summaries, caregiver support, province-aware guidance, Care Gap Radar, Care Passport handoffs, copy/export workflows, documentation, CI/CD, and a v1.0.0 release.
+
+I also built a private full-stack V2 prototype called CareBridge Startup Lab to prove the system architecture behind the concept. The private V2 system includes a React + TypeScript frontend, FastAPI backend, SQLite persistence, SQLAlchemy models, deterministic summary and task workflows, source-note-specific generation, stale-summary detection, Care Passport handoffs, Appointment Preparation outputs, Caregiver Messages, Care Gap Radar, continuity readiness scoring, copy-ready continuity packets, audit trace filtering, backend/frontend CI, and backend tests for key continuity workflows.
+
+Safety boundary: CareBridge is not an AI doctor, diagnosis app, symptom checker, prescription tool, emergency triage system, or replacement for licensed healthcare professionals. It uses synthetic data only.
+
+Live demo: https://kushrishi.github.io/carebridge-canada/
+
+Repository: https://github.com/Kushrishi/carebridge-canada
 
 ### Autonomy Simulation Lab
 
@@ -60,42 +74,30 @@ Key topics:
 
 Repository: https://github.com/Kushrishi/cpp-algorithms-and-systems
 
-## Next Project
+## Future Project Directions
 
-### CareBridge Canada
-
-A planned patient-support and healthcare navigation project focused on helping patients understand care instructions, prepare for appointments, organize follow-up tasks, and communicate medical information more clearly with family members or caregivers.
-
-Planned MVP features:
-
-* Patient care timeline
-* Appointment preparation checklist
-* After-visit summary organization
-* Family translation/support mode
-* Care Passport PDF export
-* Synthetic patient data for privacy-safe development
-* Clear documentation and reproducible demo workflows
-
-The project will start with synthetic data and practical workflow tools before adding more advanced AI-assisted features carefully.
-
-## Future Projects
-
-* City open-data dashboard
-* Computer vision object detection demo
-* Inventory management system
 * GNSS/data quality monitoring tools
-* Database-backed engineering dashboard
+* Database-backed engineering dashboards
+* City open-data dashboards
+* Computer vision object detection demos
+* Inventory and operations management systems
+* Source-grounded synthetic RAG experiments
+* Mobile app versions of selected prototypes
 
 ## Technical Skills
 
-**Languages:** C++, Python, TypeScript, SQL, Java, Dart  
+**Languages:** C++, Python, TypeScript, SQL, Java, Dart
 
-**Tools:** Git, GitHub, VS Code, Linux, MATLAB, ArcGIS Pro, AutoCAD  
+**Tools:** Git, GitHub, VS Code, Linux, MATLAB, ArcGIS Pro, AutoCAD
 
-**Areas:** Robotics, autonomy, GNSS, navigation, geospatial data, patient-support tools, data analysis, dashboards, simulation, telemetry, automation, and engineering software
+**Frontend:** React, TypeScript, Vite, CSS, GitHub Pages
+
+**Backend:** FastAPI, SQLite, SQLAlchemy, Pydantic, pytest, API design, CI workflows
+
+**Areas:** GNSS/PNT, robotics, autonomy, navigation, geospatial data, data quality, simulation, localization, telemetry, dashboards, healthcare workflow tools, automation, and engineering software
 
 ## Goal
 
 My goal is to build clean, well-documented technical projects that show strong fundamentals, practical problem-solving, and the ability to turn engineering ideas into working software.
 
-I'm especially interested in software roles connected to robotics, autonomy, navigation, GNSS, geospatial systems, patient-support tools, and engineering software.
+I'm especially interested in software roles connected to GNSS/PNT, robotics, autonomy, navigation, geospatial systems, data quality, healthcare workflow tools, and high-reliability engineering software.
