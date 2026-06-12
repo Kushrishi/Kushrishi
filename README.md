@@ -23,9 +23,11 @@ A patient-owned healthcare continuity platform prototype designed to help patien
 
 The public version demonstrates the product vision through a React + TypeScript frontend, synthetic patient scenarios, source-note workflows, appointment preparation, after-visit summaries, caregiver support, province-aware guidance, Care Gap Radar, Care Passport handoffs, copy/export workflows, documentation, CI/CD, and a v1.0.0 release.
 
-I also built a private full-stack V2 prototype called CareBridge Startup Lab to prove the system architecture behind the concept. The private V2 system includes a React + TypeScript frontend, FastAPI backend, SQLite persistence, SQLAlchemy models, deterministic summary and task workflows, source-note-specific generation, stale-summary detection, Care Passport handoffs, Appointment Preparation outputs, Caregiver Messages, Care Gap Radar, continuity readiness scoring, copy-ready continuity packets, audit trace filtering, backend/frontend CI, and backend tests for key continuity workflows.
+I also built a private full-stack V5.6 prototype called CareBridge Startup Lab to prove the system architecture behind the concept. The private system includes a React + TypeScript frontend, FastAPI backend, SQLite persistence, SQLAlchemy models, deterministic source-grounded retrieval, source-note chunking, Ask CareBridge interaction history, audit traceability, follow-up task workflows, Care Passport handoffs, Appointment Preparation outputs, Caregiver Messages, Care Gap Radar, continuity readiness scoring, backend tests, and release-based documentation.
 
-Safety boundary: CareBridge is not an AI doctor, diagnosis app, symptom checker, prescription tool, emergency triage system, or replacement for licensed healthcare professionals. It uses synthetic data only.
+The later V5 milestones added backend-only LLM provider architecture with safe secret handling, mock provider support, an OpenAI Responses adapter, usage limits, a live-provider kill switch, a provider runtime status endpoint, a frontend runtime status card, and a successful backend-only live OpenAI Responses smoke test using synthetic data.
+
+Safety boundary: CareBridge is not an AI doctor, diagnosis app, symptom checker, prescription tool, emergency triage system, treatment recommendation system, or replacement for licensed healthcare professionals or provincial health portals. It uses synthetic data only.
 
 Live demo: https://kushrishi.github.io/carebridge-canada/
 
