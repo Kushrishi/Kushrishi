@@ -1,8 +1,10 @@
 # Hi, I'm Kush Rishi
 
-I'm a Geomatics Engineering graduate with a software portfolio focused on GNSS/PNT, robotics, autonomy, geospatial systems, C++, Python, TypeScript, full-stack applications, and practical engineering software.
+I'm a Geomatics Engineering graduate building a software portfolio across GNSS/PNT, robotics, autonomy, geospatial systems, healthcare workflow tools, C++, Python, TypeScript, full-stack applications, and practical engineering software.
 
-My background is in geomatics, navigation, spatial data, surveying, geospatial analysis, and engineering problem-solving. I am building independent software projects that combine algorithms, simulation, localization, telemetry, dashboards, backend APIs, data quality workflows, and user-facing engineering tools.
+My background is in geomatics, navigation, spatial data, surveying, geospatial analysis, and engineering problem-solving. I build independent technical projects that combine algorithms, simulation, localization, telemetry, dashboards, backend APIs, source-grounded workflows, data quality checks, and user-facing product prototypes.
+
+My current portfolio includes a healthcare-continuity platform concept, a browser-based autonomy simulation lab, and a C++ algorithms/systems practice repository.
 
 ## Current Focus
 
@@ -14,6 +16,7 @@ My background is in geomatics, navigation, spatial data, surveying, geospatial a
 * SQL and database-backed applications
 * Full-stack product prototypes
 * Geospatial, healthcare, and engineering workflow tools
+* Source-grounded systems, data quality workflows, and safety-aware software design
 
 ## Featured Projects
 
@@ -23,7 +26,7 @@ A healthcare-continuity platform concept designed to help patients, families, ca
 
 The public version demonstrates the product vision through a React + TypeScript frontend with synthetic care scenarios, appointment preparation, after-visit summaries, caregiver support, province-aware guidance, Care Gap Radar, Care Passport handoffs, copy/export workflows, documentation, CI/CD, and a v1.0.0 release.
 
-I also built a private full-stack startup lab to prove the deeper system architecture behind the concept. The private V7.10 prototype includes a React + TypeScript frontend, FastAPI backend, SQLite persistence, SQLAlchemy models, deterministic source-grounded retrieval, source-note chunking, Ask CareBridge interaction history, audit trails, follow-up task workflows, care gap detection, continuity readiness scoring, backend tests, release-based documentation, and a final V7 screenshot-supported README.
+I also built a private full-stack startup lab to prove the deeper system architecture behind the concept. The private V7.10.1 prototype includes a React + TypeScript frontend, FastAPI backend, SQLite persistence, SQLAlchemy models, deterministic source-grounded retrieval, source-note chunking, Ask CareBridge interaction history, audit trails, follow-up task workflows, care gap detection, continuity readiness scoring, backend tests, release-based documentation, and a final V7 screenshot-supported README.
 
 Later milestones added language-first onboarding, low-literacy Easy Mode, one-task-at-a-time Simple Mode, caregiver/family workflows, care-team handoff views, medication question organization, unified care packet generation, technical workspace gating, synthetic data controls, and backend-only AI provider architecture.
 
@@ -86,6 +89,7 @@ Repository: https://github.com/Kushrishi/cpp-algorithms-and-systems
 * Computer vision object detection demos
 * Inventory and operations management systems
 * Source-grounded synthetic RAG experiments
+* Secure healthcare workflow prototypes using synthetic data
 * Mobile app versions of selected prototypes
 
 ## Technical Skills
@@ -98,7 +102,7 @@ Repository: https://github.com/Kushrishi/cpp-algorithms-and-systems
 
 **Backend:** FastAPI, SQLite, SQLAlchemy, Pydantic, pytest, API design, CI workflows
 
-**Areas:** GNSS/PNT, robotics, autonomy, navigation, geospatial data, data quality, simulation, localization, telemetry, dashboards, healthcare workflow tools, automation, and engineering software
+**Areas:** GNSS/PNT, robotics, autonomy, navigation, geospatial data, data quality, simulation, localization, telemetry, dashboards, healthcare workflow tools, automation, source-grounded systems, and engineering software
 
 ## Goal
 
