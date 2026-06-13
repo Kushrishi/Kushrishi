@@ -19,15 +19,17 @@ My background is in geomatics, navigation, spatial data, surveying, geospatial a
 
 ### CareBridge Canada
 
-A patient-owned healthcare continuity platform prototype designed to help patients, families, and caregivers organize care information, prepare for appointments, track follow-up tasks, generate care handoffs, and avoid losing the thread between healthcare visits.
+A healthcare-continuity platform concept designed to help patients, families, caregivers, immigrants, and care teams avoid losing the thread of care between healthcare visits.
 
-The public version demonstrates the product vision through a React + TypeScript frontend, synthetic patient scenarios, source-note workflows, appointment preparation, after-visit summaries, caregiver support, province-aware guidance, Care Gap Radar, Care Passport handoffs, copy/export workflows, documentation, CI/CD, and a v1.0.0 release.
+The public version demonstrates the product vision through a React + TypeScript frontend with synthetic care scenarios, appointment preparation, after-visit summaries, caregiver support, province-aware guidance, Care Gap Radar, Care Passport handoffs, copy/export workflows, documentation, CI/CD, and a v1.0.0 release.
 
-I also built a private full-stack V5.6 prototype called CareBridge Startup Lab to prove the system architecture behind the concept. The private system includes a React + TypeScript frontend, FastAPI backend, SQLite persistence, SQLAlchemy models, deterministic source-grounded retrieval, source-note chunking, Ask CareBridge interaction history, audit traceability, follow-up task workflows, Care Passport handoffs, Appointment Preparation outputs, Caregiver Messages, Care Gap Radar, continuity readiness scoring, backend tests, and release-based documentation.
+I also built a private full-stack startup lab to prove the deeper system architecture behind the concept. The private V7.10 prototype includes a React + TypeScript frontend, FastAPI backend, SQLite persistence, SQLAlchemy models, deterministic source-grounded retrieval, source-note chunking, Ask CareBridge interaction history, audit trails, follow-up task workflows, care gap detection, continuity readiness scoring, backend tests, release-based documentation, and a final V7 screenshot-supported README.
 
-The later V5 milestones added backend-only LLM provider architecture with safe secret handling, mock provider support, an OpenAI Responses adapter, usage limits, a live-provider kill switch, a provider runtime status endpoint, a frontend runtime status card, and a successful backend-only live OpenAI Responses smoke test using synthetic data.
+Later milestones added language-first onboarding, low-literacy Easy Mode, one-task-at-a-time Simple Mode, caregiver/family workflows, care-team handoff views, medication question organization, unified care packet generation, technical workspace gating, synthetic data controls, and backend-only AI provider architecture.
 
-Safety boundary: CareBridge is not an AI doctor, diagnosis app, symptom checker, prescription tool, emergency triage system, treatment recommendation system, or replacement for licensed healthcare professionals or provincial health portals. It uses synthetic data only.
+The AI architecture includes mock provider support, an OpenAI Responses adapter, usage limits, live-provider kill switches, provider runtime status endpoints, frontend runtime visibility, structured AI draft validation, and a successful backend-only live OpenAI Responses smoke test using synthetic data.
+
+Safety boundary: CareBridge is not an AI doctor, diagnosis app, symptom checker, prescription tool, emergency triage system, treatment recommendation system, regulated medical device, or replacement for licensed healthcare professionals or provincial health portals. It uses synthetic data only.
 
 Live demo: https://kushrishi.github.io/carebridge-canada/
 
