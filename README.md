@@ -2,28 +2,27 @@
 
 **Machine Learning · PNT · Secure Intelligent Systems**
 
-Engineer working at the intersection of machine learning, positioning and navigation, intelligent sensing, and reliable software systems.
+Engineer working across machine learning, positioning and navigation, intelligent sensing, software systems, and security.
 
-My background is in Geomatics Engineering and GNSS/PNT. My current work and independent research increasingly focus on machine learning, resilient intelligent systems, localization, anomaly detection, security, and research-oriented software engineering.
+My foundation is in Geomatics Engineering and GNSS/PNT. I am now focused on building robust machine-learning systems, localization and sensing pipelines, security-aware software, and research-driven engineering tools for systems operating under uncertainty.
 
 ## Current Focus
 
-**Robust Machine Learning**
-Learning systems that remain useful under distribution shift, unseen failures, noisy data, and changing operating conditions.
+**Machine Learning & Robustness**  
+Distribution shift, anomaly detection, unseen-failure generalization, calibration, temporal learning, and reliable evaluation.
 
-**PNT & Intelligent Sensing**
-GNSS, positioning, navigation, localization, estimation, sensor data, and integrity.
+**PNT & Intelligent Sensing**  
+GNSS, positioning, navigation, localization, estimation, sensor fusion, measurement integrity, and physical-world data.
 
-**Secure & Reliable Systems**
-Software and intelligent systems designed for observability, robustness, security, and failure-aware operation.
+**Software Systems & Security**  
+Full-stack and backend systems, ML infrastructure, observability, reliability, cybersecurity, and adversarial system design.
 
 ## Selected Work
 
 ### ResilientML
-
 *In development*
 
-Research-oriented ML project investigating anomaly and failure detection under distribution shift, including unseen-failure generalization, calibration, detection latency, and false-alarm behaviour.
+Research-oriented machine-learning project investigating failure detection under distribution shift, with emphasis on unseen-failure generalization, calibration, detection latency, false alarms, and robust evaluation.
 
 ### Autonomy Simulation Lab
 
@@ -31,20 +30,25 @@ Interactive autonomy and localization environment combining path planning, senso
 
 [Repository](https://github.com/Kushrishi/autonomy-simulation-lab) · [Live Demo](https://kushrishi.github.io/autonomy-simulation-lab/)
 
+## Other Engineering
+
 ### CareBridge Canada
 
-Full-stack product and AI-systems exploration demonstrating frontend engineering, backend architecture, source-grounded workflows, testing, CI/CD, safety boundaries, and synthetic-data system design.
+Full-stack AI-enabled product prototype demonstrating React/TypeScript frontend engineering, FastAPI backend architecture, data persistence, source-grounded workflows, testing, CI/CD, and safety-aware AI integration.
 
 [Repository](https://github.com/Kushrishi/carebridge-canada) · [Live Demo](https://kushrishi.github.io/carebridge-canada/)
 
-## Engineering
+## Technical Stack
 
-`Python` · `C++` · `PyTorch` · `TypeScript` · `Linux` · `FastAPI` · `SQL` · `Git`
+**ML & Data:** Python · PyTorch · scikit-learn · pandas  
+**Systems:** C++ · Linux · Git · Docker  
+**Backend & Data:** FastAPI · SQL · PostgreSQL  
+**Frontend:** TypeScript · React
 
 **Interests:** Robust ML · ML Systems · PNT · Localization · Multimodal Sensing · AI Security · Research Engineering
 
 ---
 
-**Currently:** building ResilientML and developing research projects around reliable machine intelligence.
+**Currently:** building ResilientML and developing projects at the intersection of robust machine learning, PNT, intelligent sensing, and security.
 
 [LinkedIn](https://www.linkedin.com/in/kushrishi/)
