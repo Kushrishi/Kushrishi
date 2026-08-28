@@ -1,32 +1,35 @@
 # Kush Rishi
 
-**Machine Learning · PNT · Secure Intelligent Systems**
+**Machine Learning · ML Systems · PNT & Intelligent Sensing**
 
-Engineer working across machine learning, positioning and navigation, intelligent sensing, software systems, and security.
+Engineer working across machine learning, software systems, positioning and navigation, and intelligent sensing.
 
-My foundation is in Geomatics Engineering and GNSS/PNT. I am now focused on building robust machine-learning systems, localization and sensing pipelines, security-aware software, and research-driven engineering tools for systems operating under uncertainty.
+My foundation is in Geomatics Engineering and GNSS/PNT. I am now focused on building robust machine-learning systems, research-oriented software, and intelligent systems that operate reliably under uncertainty.
 
 ## Current Focus
 
-**Machine Learning & Robustness**  
-Distribution shift, anomaly detection, unseen-failure generalization, calibration, temporal learning, and reliable evaluation.
+**Machine Learning & Evaluation**  
+Distribution shift, anomaly and failure detection, unseen-failure generalization, calibration, temporal learning, model evaluation, and reliable experimentation.
+
+**ML Systems & Software**  
+Python, PyTorch, data pipelines, Linux, Docker, testing, CI/CD, observability, backend systems, and reproducible ML infrastructure.
 
 **PNT & Intelligent Sensing**  
-GNSS, positioning, navigation, localization, estimation, sensor fusion, measurement integrity, and physical-world data.
-
-**Software Systems & Security**  
-Full-stack and backend systems, ML infrastructure, observability, reliability, cybersecurity, and adversarial system design.
+GNSS, positioning, navigation, localization, state estimation, sensor fusion, multimodal sensing, measurement integrity, and physical-world data.
 
 ## Selected Work
 
 ### ResilientML
+
 *In development*
 
 Research-oriented machine-learning project investigating failure detection under distribution shift, with emphasis on unseen-failure generalization, calibration, detection latency, false alarms, and robust evaluation.
 
+[Repository](https://github.com/Kushrishi/resilientml)
+
 ### Autonomy Simulation Lab
 
-Interactive autonomy and localization environment combining path planning, sensor simulation, nonlinear range-based localization, Kalman filtering, telemetry, and offline analysis.
+Interactive autonomy and localization environment combining path planning, sensor simulation, nonlinear range-based localization, state estimation, Kalman filtering, telemetry, and offline analysis.
 
 [Repository](https://github.com/Kushrishi/autonomy-simulation-lab) · [Live Demo](https://kushrishi.github.io/autonomy-simulation-lab/)
 
@@ -34,7 +37,7 @@ Interactive autonomy and localization environment combining path planning, senso
 
 ### CareBridge Canada
 
-Full-stack AI-enabled product prototype demonstrating React/TypeScript frontend engineering, FastAPI backend architecture, data persistence, source-grounded workflows, testing, CI/CD, and safety-aware AI integration.
+Full-stack AI-enabled product prototype demonstrating React/TypeScript frontend engineering, FastAPI backend architecture, data persistence, source-grounded workflows, automated testing, CI/CD, containerization, and safety-aware AI integration.
 
 [Repository](https://github.com/Kushrishi/carebridge-canada) · [Live Demo](https://kushrishi.github.io/carebridge-canada/)
 
@@ -45,10 +48,10 @@ Full-stack AI-enabled product prototype demonstrating React/TypeScript frontend 
 **Backend & Data:** FastAPI · SQL · PostgreSQL  
 **Frontend:** TypeScript · React
 
-**Interests:** Robust ML · ML Systems · PNT · Localization · Multimodal Sensing · AI Security · Research Engineering
+**Interests:** ML Systems · Robust ML · Model Evaluation · Multimodal Learning · PNT · Research Engineering
 
 ---
 
-**Currently:** building ResilientML and developing projects at the intersection of robust machine learning, PNT, intelligent sensing, and security.
+**Currently:** building ResilientML and developing deeper experience in machine learning, model evaluation, ML systems, and multimodal intelligence.
 
 [LinkedIn](https://www.linkedin.com/in/kushrishi/)
