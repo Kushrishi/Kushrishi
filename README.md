@@ -1,57 +1,45 @@
 # Kush Rishi
 
-**Machine Learning · ML Systems · PNT & Intelligent Sensing**
+Engineer working across **machine learning, software systems, PNT, and intelligent sensing**.
 
-Engineer working across machine learning, software systems, positioning and navigation, and intelligent sensing.
-
-My foundation is in Geomatics Engineering and GNSS/PNT. I am now focused on building robust machine-learning systems, research-oriented software, and intelligent systems that operate reliably under uncertainty.
+My background is in Geomatics Engineering, positioning and navigation, measurement systems, and software development. I am currently building deeper experience in machine learning through research-oriented projects focused on model behavior, robust evaluation, distribution shift, and reliable ML systems.
 
 ## Current Focus
 
-**Machine Learning & Evaluation**  
-Distribution shift, anomaly and failure detection, unseen-failure generalization, calibration, temporal learning, model evaluation, and reliable experimentation.
-
-**ML Systems & Software**  
-Python, PyTorch, data pipelines, Linux, Docker, testing, CI/CD, observability, backend systems, and reproducible ML infrastructure.
-
-**PNT & Intelligent Sensing**  
-GNSS, positioning, navigation, localization, state estimation, sensor fusion, multimodal sensing, measurement integrity, and physical-world data.
+- Robust machine learning and model evaluation
+- ML systems and research-oriented software
+- Multimodal and intelligent sensing
+- PNT/GNSS, estimation, and real-world measurement systems
 
 ## Selected Work
 
-### ResilientML
+### [kushrishi.com](https://kushrishi.com)
 
-*In development*
+My personal research and engineering portfolio, built around machine learning, ML systems, PNT, intelligent sensing, and reliable models under uncertainty.
 
-Research-oriented machine-learning project investigating failure detection under distribution shift, with emphasis on unseen-failure generalization, calibration, detection latency, false alarms, and robust evaluation.
+### [Autonomy Simulation Lab](https://github.com/Kushrishi/autonomy-simulation-lab)
 
-[Repository](https://github.com/Kushrishi/resilientml)
+Interactive autonomy and localization environment combining path planning, dynamic replanning, noisy sensing, nonlinear range-based localization, Kalman filtering, telemetry, quantitative evaluation, and automated testing.
 
-### Autonomy Simulation Lab
+### [CareBridge Canada](https://github.com/Kushrishi/carebridge-canada)
 
-Interactive autonomy and localization environment combining path planning, sensor simulation, nonlinear range-based localization, state estimation, Kalman filtering, telemetry, and offline analysis.
+Full-stack product prototype exploring source-grounded and safety-aware AI workflows using React, TypeScript, FastAPI, SQL, automated testing, and CI/CD.
 
-[Repository](https://github.com/Kushrishi/autonomy-simulation-lab) · [Live Demo](https://kushrishi.github.io/autonomy-simulation-lab/)
+## Research Direction
 
-## Other Engineering
+### Model Regression Forensics
 
-### CareBridge Canada
+A working research direction investigating whether behavioral regressions between model checkpoints can be traced through training lineage to likely causes and verified through controlled intervention.
 
-Full-stack AI-enabled product prototype demonstrating React/TypeScript frontend engineering, FastAPI backend architecture, data persistence, source-grounded workflows, automated testing, CI/CD, containerization, and safety-aware AI integration.
+Current status: **Experiment 000 design / no experimental results yet.**
 
-[Repository](https://github.com/Kushrishi/carebridge-canada) · [Live Demo](https://kushrishi.github.io/carebridge-canada/)
+## Tools
 
-## Technical Stack
+**Languages:** Python, TypeScript, C++, SQL  
+**Engineering:** Linux, Git, Docker, APIs, testing, CI/CD  
+**ML / Data:** PyTorch, data analysis, model evaluation, experiment design  
+**Domain foundation:** PNT/GNSS, estimation, sensing, spatial measurement
 
-**ML & Data:** Python · PyTorch · scikit-learn · pandas  
-**Systems:** C++ · Linux · Git · Docker  
-**Backend & Data:** FastAPI · SQL · PostgreSQL  
-**Frontend:** TypeScript · React
+## Links
 
-**Interests:** ML Systems · Robust ML · Model Evaluation · Multimodal Learning · PNT · Research Engineering
-
----
-
-**Currently:** building ResilientML and developing deeper experience in machine learning, model evaluation, ML systems, and multimodal intelligence.
-
-[LinkedIn](https://www.linkedin.com/in/kushrishi/)
+[Portfolio](https://kushrishi.com) · [LinkedIn](https://www.linkedin.com/in/kushrishi/)
