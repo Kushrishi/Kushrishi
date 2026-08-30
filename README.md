@@ -1,21 +1,27 @@
 # Kush Rishi
 
-Engineer working across **machine learning, software systems, PNT, and intelligent sensing**.
+Engineer working across **machine learning, software systems, PNT/GNSS, and intelligent sensing**.
 
-My background is in Geomatics Engineering, positioning and navigation, measurement systems, and software development. I am currently building deeper experience in machine learning through research-oriented projects focused on model behavior, robust evaluation, distribution shift, and reliable ML systems.
+My background is in Geomatics Engineering, positioning and navigation, measurement systems, and software development. I am currently building deeper ML and research-engineering experience through independent work on model evaluation, post-training behavior, regression diagnosis, and reproducible ML experimentation.
 
-## Current Focus
+## Current Research
 
-- Robust machine learning and model evaluation
-- ML systems and research-oriented software
-- Multimodal and intelligent sensing
-- PNT/GNSS, estimation, and real-world measurement systems
+### [Model Regression Forensics](https://github.com/Kushrishi/model-regression-forensics)
 
-## Selected Work
+Research project investigating whether behavioral regressions between model checkpoints can be traced through training lineage to likely causes and verified through controlled intervention.
 
-### [kushrishi.com](https://kushrishi.com)
+The project uses controlled LoRA fine-tuning experiments, blinded candidate attribution, anti-shortcut benchmark design, held-out evaluation, and intervention-based verification.
 
-My personal research and engineering portfolio, built around machine learning, ML systems, PNT, intelligent sensing, and reliable models under uncertainty.
+**Progress so far:**
+- Experiment 001 exposed a lexical shortcut that could make diagnosis appear stronger than it was.
+- Experiment 002 neutralized that shortcut; changed-record analysis still localized the hidden cause, and selective restoration recovered the target behavior.
+- Experiment 003 deliberately stopped when its clean baseline failed.
+- Follow-up capability diagnostics narrowed the failure boundary: selected-slot lookup and explicit-policy role binding each reached **96/96 held-out accuracy** under the frozen setup.
+- **Experiment 004 is next:** a harder blinded root-cause-analysis benchmark built on a prospectively validated baseline.
+
+[Research page →](https://kushrishi.com/research/model-regression-forensics)
+
+## Selected Engineering Work
 
 ### [Autonomy Simulation Lab](https://github.com/Kushrishi/autonomy-simulation-lab)
 
@@ -25,21 +31,24 @@ Interactive autonomy and localization environment combining path planning, dynam
 
 Full-stack product prototype exploring source-grounded and safety-aware AI workflows using React, TypeScript, FastAPI, SQL, automated testing, and CI/CD.
 
-## Research Direction
+### [kushrishi.com](https://kushrishi.com)
 
-### Model Regression Forensics
+Personal research and engineering portfolio covering machine learning, software systems, PNT/GNSS, intelligent sensing, and reliable models under uncertainty.
 
-A working research direction investigating whether behavioral regressions between model checkpoints can be traced through training lineage to likely causes and verified through controlled intervention.
+## Current Focus
 
-Current status: **Experiment 000 design / no experimental results yet.**
+- Model evaluation, regression analysis, and reliable ML
+- ML systems and research engineering
+- Multimodal and intelligent sensing
+- PNT/GNSS, estimation, and real-world measurement systems
 
 ## Tools
 
 **Languages:** Python, TypeScript, C++, SQL  
+**ML / Data:** PyTorch, model evaluation, fine-tuning, experiment design, data analysis  
 **Engineering:** Linux, Git, Docker, APIs, testing, CI/CD  
-**ML / Data:** PyTorch, data analysis, model evaluation, experiment design  
-**Domain foundation:** PNT/GNSS, estimation, sensing, spatial measurement
+**Domain:** PNT/GNSS, estimation, sensing, spatial measurement
 
 ## Links
 
-[Portfolio](https://kushrishi.com) · [LinkedIn](https://www.linkedin.com/in/kushrishi/)
+[Portfolio](https://kushrishi.com) · [LinkedIn](https://www.linkedin.com/in/kushrishi/) · [Model Regression Forensics](https://github.com/Kushrishi/model-regression-forensics)
