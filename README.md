@@ -2,55 +2,53 @@
 
 Engineer working across **machine learning, software systems, PNT/GNSS, and intelligent sensing**.
 
-My background is in Geomatics Engineering, positioning and navigation, measurement systems, and software development. I am building deeper ML and research-engineering experience through independent work on model evaluation, post-training behavior, regression diagnosis, and reproducible ML experimentation.
+My background is in Geomatics Engineering, navigation, sensing, measurement systems, and software development. I am especially interested in ML systems, model reliability, and software that has to work with imperfect real-world data.
 
 ## Current Research
 
 ### [Model Regression Forensics](https://github.com/Kushrishi/model-regression-forensics)
 
-Research project investigating whether behavioral regressions between model checkpoints can be traced through training lineage to plausible causes and then verified through controlled counterfactual intervention.
+I am researching a simple ML debugging question:
 
-The project uses controlled LoRA fine-tuning experiments, prospectively frozen benchmark construction, truth-isolated diagnostic ranking, held-out evaluation, runtime provenance, and selective restoration.
+> **When a model gets worse after retraining, can we figure out which training change caused it?**
 
-**Progress so far:**
-- Experiment 001 exposed a lexical shortcut that could make diagnosis appear stronger than it was.
-- Experiment 002 neutralized that shortcut; changed-record analysis still localized the hidden cause, and selective restoration recovered the target behavior with recorded spillover.
-- Experiment 003 deliberately stopped when its clean baseline failed; follow-up capability tests isolated the failure boundary and explicit-policy role binding reached **96/96 held-out accuracy**.
-- Experiment 004 showed that correct localization is not enough: the intended shard was ranked correctly, but restoring it produced no target recovery.
-- Experiments 005 and 006 showed that aggregate and semantic balancing still do not guarantee a valid localized regression.
-- Experiment 007 produced material target regressions during calibration, but locality failed, so causal certification did not proceed.
-- **Experiment 008 is active:** its two-world protocol was frozen before model training, the clean baseline scored **96/96**, and frozen candidate evaluation is underway.
+The project compares changes in model behavior with changes made during training. It ranks possible causes, then tests those guesses by reversing individual changes and retraining the model.
 
-[Research page →](https://kushrishi.com/research/model-regression-forensics)
+That last step matters. I do not want to call something the cause just because it looks suspicious. If reversing that change repairs the model while reversing the others does not, the diagnosis is much stronger.
+
+**Current progress:**
+
+- Early experiments exposed shortcuts that could make a debugging method look better than it really was.
+- Later experiments showed that correctly identifying a suspicious change does not necessarily mean it caused the failure.
+- Experiments 005–007 exposed problems with how the test regressions themselves were being created.
+- **Experiment 008 is active.** Its setup was fixed before training began, the clean reference model scored **96/96**, and the changed models are now being evaluated.
+
+[Read the research page →](https://kushrishi.com/research/model-regression-forensics)
 
 ## Selected Engineering Work
 
 ### [Autonomy Simulation Lab](https://github.com/Kushrishi/autonomy-simulation-lab)
 
-Interactive autonomy and localization environment combining path planning, dynamic replanning, noisy sensing, nonlinear range-based localization, Kalman filtering, telemetry, quantitative evaluation, and automated testing.
+Interactive autonomy and localization environment combining path planning, dynamic replanning, noisy sensing, nonlinear localization, Kalman filtering, telemetry, evaluation, and automated testing.
 
 ### [CareBridge Canada](https://github.com/Kushrishi/carebridge-canada)
 
 Full-stack product prototype exploring source-grounded and safety-aware AI workflows using React, TypeScript, FastAPI, SQL, automated testing, and CI/CD.
 
-### [kushrishi.com](https://kushrishi.com)
-
-Personal research and engineering portfolio covering machine learning, software systems, PNT/GNSS, intelligent sensing, and reliable models under uncertainty.
-
 ## Current Focus
 
-- Model evaluation, regression analysis, and reliable ML
 - ML systems and research engineering
+- Model evaluation, debugging, and reliability
 - Multimodal and intelligent sensing
 - PNT/GNSS, estimation, and real-world measurement systems
 
 ## Tools
 
-**Languages:** Python, TypeScript, C++, SQL  
-**ML / Data:** PyTorch, model evaluation, fine-tuning, experiment design, data analysis  
-**Engineering:** Linux, Git, Docker, APIs, testing, CI/CD  
+**Languages:** Python, TypeScript, C++, SQL
+**ML / Data:** PyTorch, fine-tuning, model evaluation, experiment design, data analysis
+**Engineering:** Linux, Git, Docker, APIs, testing, CI/CD
 **Domain:** PNT/GNSS, estimation, sensing, spatial measurement
 
 ## Links
 
-[Portfolio](https://kushrishi.com) · [LinkedIn](https://www.linkedin.com/in/kushrishi/) · [Model Regression Forensics](https://github.com/Kushrishi/model-regression-forensics)
+[Portfolio](https://kushrishi.com) · [LinkedIn](https://www.linkedin.com/in/kushrishi/) · [Research](https://github.com/Kushrishi/model-regression-forensics)
