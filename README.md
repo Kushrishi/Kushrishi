@@ -2,34 +2,34 @@
 
 Engineer working across **machine learning, software systems, PNT/GNSS, and intelligent sensing**.
 
-My background is in Geomatics Engineering, navigation, sensing, measurement systems, and software development. I am especially interested in ML systems, model reliability, and software that has to work with imperfect real-world data.
+I am a Geomatics Engineering graduate and GNSS Analyst at Xona. My background spans positioning, navigation, sensing, estimation, measurement systems, and software development. I am particularly interested in ML systems and engineering problems where reliability, evaluation, and real-world data matter.
 
 ## Current Research
 
 ### [Model Regression Forensics](https://github.com/Kushrishi/model-regression-forensics)
 
-I am researching a simple ML debugging question:
+Model Regression Forensics is an independent ML research project focused on a practical debugging question:
 
-> **When a model gets worse after retraining, can we figure out which training change caused it?**
+> **When a model regresses after retraining, can we identify which training change caused it?**
 
-The project compares changes in model behavior with changes made during training. It ranks possible causes, then tests those guesses by reversing individual changes and retraining the model.
+The project compares model behavior across training runs, records the training changes that could explain a regression, ranks plausible causes, and then tests those diagnoses by reversing individual changes and retraining the model.
 
-That last step matters. I do not want to call something the cause just because it looks suspicious. If reversing that change repairs the model while reversing the others does not, the diagnosis is much stronger.
+This distinction between ranking and verification is central to the project. A training change is not treated as the cause simply because it appears suspicious. The stronger test is whether reversing that change actually restores the affected behavior.
 
 **Current progress:**
 
-- Early experiments exposed shortcuts that could make a debugging method look better than it really was.
-- Later experiments showed that correctly identifying a suspicious change does not necessarily mean it caused the failure.
-- Experiments 005–007 exposed problems with how the test regressions themselves were being created.
-- **Experiment 008 is active.** Its setup was fixed before training began, the clean reference model scored **96/96**, and the changed models are now being evaluated.
+- Experiments 000 through 007 are complete.
+- Earlier experiments exposed misleading lexical shortcuts and cases where correct localization did not lead to recovery.
+- Later experiments showed that the benchmark itself must create a measurable, isolated regression before causal debugging can be evaluated.
+- **Experiment 008 is active.** Its design was fixed before result-bearing training began. The clean reference model scored **96/96** on held-out evaluation, and candidate-model evaluation is now underway.
 
-[Read the research page →](https://kushrishi.com/research/model-regression-forensics)
+[Research page](https://kushrishi.com/research/model-regression-forensics)
 
 ## Selected Engineering Work
 
 ### [Autonomy Simulation Lab](https://github.com/Kushrishi/autonomy-simulation-lab)
 
-Interactive autonomy and localization environment combining path planning, dynamic replanning, noisy sensing, nonlinear localization, Kalman filtering, telemetry, evaluation, and automated testing.
+Interactive autonomy and localization environment combining path planning, dynamic replanning, noisy sensing, nonlinear localization, Kalman filtering, telemetry, quantitative evaluation, and automated testing.
 
 ### [CareBridge Canada](https://github.com/Kushrishi/carebridge-canada)
 
@@ -39,16 +39,16 @@ Full-stack product prototype exploring source-grounded and safety-aware AI workf
 
 - ML systems and research engineering
 - Model evaluation, debugging, and reliability
-- Multimodal and intelligent sensing
+- Multimodal learning and intelligent sensing
 - PNT/GNSS, estimation, and real-world measurement systems
 
-## Tools
+## Technical Stack
 
-**Languages:** Python, TypeScript, C++, SQL
-**ML / Data:** PyTorch, fine-tuning, model evaluation, experiment design, data analysis
-**Engineering:** Linux, Git, Docker, APIs, testing, CI/CD
-**Domain:** PNT/GNSS, estimation, sensing, spatial measurement
+- **Languages:** Python, TypeScript, C++, SQL
+- **ML:** PyTorch, Hugging Face Transformers, PEFT/LoRA, fine-tuning, model evaluation
+- **Engineering:** Linux, Git, Docker, APIs, testing, CI/CD
+- **Domain:** PNT/GNSS, estimation, sensing, spatial measurement
 
 ## Links
 
-[Portfolio](https://kushrishi.com) · [LinkedIn](https://www.linkedin.com/in/kushrishi/) · [Research](https://github.com/Kushrishi/model-regression-forensics)
+[Portfolio](https://kushrishi.com) · [LinkedIn](https://www.linkedin.com/in/kushrishi/) · [Model Regression Forensics](https://github.com/Kushrishi/model-regression-forensics)
