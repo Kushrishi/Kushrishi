@@ -2,22 +2,24 @@
 
 Engineer working across **machine learning, software systems, PNT/GNSS, and intelligent sensing**.
 
-My background is in Geomatics Engineering, positioning and navigation, measurement systems, and software development. I am currently building deeper ML and research-engineering experience through independent work on model evaluation, post-training behavior, regression diagnosis, and reproducible ML experimentation.
+My background is in Geomatics Engineering, positioning and navigation, measurement systems, and software development. I am building deeper ML and research-engineering experience through independent work on model evaluation, post-training behavior, regression diagnosis, and reproducible ML experimentation.
 
 ## Current Research
 
 ### [Model Regression Forensics](https://github.com/Kushrishi/model-regression-forensics)
 
-Research project investigating whether behavioral regressions between model checkpoints can be traced through training lineage to likely causes and verified through controlled intervention.
+Research project investigating whether behavioral regressions between model checkpoints can be traced through training lineage to plausible causes and then verified through controlled counterfactual intervention.
 
-The project uses controlled LoRA fine-tuning experiments, blinded candidate attribution, anti-shortcut benchmark design, held-out evaluation, and intervention-based verification.
+The project uses controlled LoRA fine-tuning experiments, prospectively frozen benchmark construction, truth-isolated diagnostic ranking, held-out evaluation, runtime provenance, and selective restoration.
 
 **Progress so far:**
 - Experiment 001 exposed a lexical shortcut that could make diagnosis appear stronger than it was.
-- Experiment 002 neutralized that shortcut; changed-record analysis still localized the hidden cause, and selective restoration recovered the target behavior.
-- Experiment 003 deliberately stopped when its clean baseline failed.
-- Follow-up capability diagnostics narrowed the failure boundary: selected-slot lookup and explicit-policy role binding each reached **96/96 held-out accuracy** under the frozen setup.
-- **Experiment 004 is next:** a harder blinded root-cause-analysis benchmark built on a prospectively validated baseline.
+- Experiment 002 neutralized that shortcut; changed-record analysis still localized the hidden cause, and selective restoration recovered the target behavior with recorded spillover.
+- Experiment 003 deliberately stopped when its clean baseline failed; follow-up capability tests isolated the failure boundary and explicit-policy role binding reached **96/96 held-out accuracy**.
+- Experiment 004 showed that correct localization is not enough: the intended shard was ranked correctly, but restoring it produced no target recovery.
+- Experiments 005 and 006 showed that aggregate and semantic balancing still do not guarantee a valid localized regression.
+- Experiment 007 produced material target regressions during calibration, but locality failed, so causal certification did not proceed.
+- **Experiment 008 is active:** its two-world protocol was frozen before model training, the clean baseline scored **96/96**, and frozen candidate evaluation is underway.
 
 [Research page →](https://kushrishi.com/research/model-regression-forensics)
 
