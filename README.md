@@ -29,18 +29,18 @@ This distinction between ranking and verification is central to the project. A t
 
 Independent research into longitudinal optical sensing around existing dental restorations.
 
-The project investigates whether repeated optical measurements can distinguish meaningful subsurface change from acquisition variability, positioning error, hydration effects, and other measurement confounds.
+The project investigates whether repeated optical measurements can distinguish meaningful physical change from positioning, hydration, and other measurement variability.
 
-The work is being approached as a falsifiable sensing problem rather than as a diagnostic claim: establish repeatable measurement first, then determine whether biologically meaningful change can be separated from nuisance variation.
+The work is being approached as a measurement problem first: establish repeatable acquisition, then determine whether biologically meaningful change can be separated from nuisance variation.
 
 **Current progress:**
 
 - Public SWIR and micro-CT dental datasets have been validated and paired into a clean technical cohort.
 - Cross-wavelength registration and micro-CT decoding pipelines have been validated.
-- A restoration-specific physical falsification protocol was frozen before physical data collection.
-- The next stage is single-channel bench repeatability testing before expanding to multi-wavelength and specimen experiments.
+- The experimental protocol was frozen before physical testing.
+- Single-channel bench repeatability testing is the next stage.
 
-**Status:** Preclinical technical validation. No clinical diagnostic claims are being made.
+**Status:** Early technical validation. No clinical diagnostic claims are being made.
 
 ## Selected Engineering Work
 
@@ -58,7 +58,6 @@ Full-stack product prototype exploring source-grounded and safety-aware AI workf
 - Model evaluation, debugging, and reliability
 - Multimodal learning and intelligent sensing
 - Biomedical and optical sensing
-- Biomedical and optical measurement systems
 - PNT/GNSS, estimation, and real-world measurement systems
 
 ## Technical Stack
