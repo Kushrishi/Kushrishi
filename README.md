@@ -2,7 +2,7 @@
 
 Engineer working across **machine learning, software systems, PNT/GNSS, and intelligent sensing**.
 
-I am a Geomatics Engineering graduate and GNSS Analyst at Xona. My background spans positioning, navigation, sensing, estimation, measurement systems, and software development. I am particularly interested in ML systems and engineering problems where reliability, evaluation, and real-world data matter.
+I am a Geomatics Engineering graduate and GNSS Analyst at Xona. My background spans positioning, navigation, sensing, estimation, measurement systems, and software development. I am particularly interested in ML systems, intelligent sensing, and engineering problems where reliability, evaluation, and real-world data matter.
 
 ## Current Research
 
@@ -25,6 +25,23 @@ This distinction between ranking and verification is central to the project. A t
 
 [Research page](https://kushrishi.com/research/model-regression-forensics)
 
+### Restoration Interface Sensing
+
+Independent research into longitudinal optical sensing around existing dental restorations.
+
+The project investigates whether repeated optical measurements can distinguish meaningful subsurface change from acquisition variability, positioning error, hydration effects, and other measurement confounds.
+
+The work is being approached as a falsifiable sensing problem rather than as a diagnostic claim: establish repeatable measurement first, then determine whether biologically meaningful change can be separated from nuisance variation.
+
+**Current progress:**
+
+- Public SWIR and micro-CT dental datasets have been validated and paired into a clean technical cohort.
+- Cross-wavelength registration and micro-CT decoding pipelines have been validated.
+- A restoration-specific physical falsification protocol was frozen before physical data collection.
+- The next stage is single-channel bench repeatability testing before expanding to multi-wavelength and specimen experiments.
+
+**Status:** Preclinical technical validation. No clinical diagnostic claims are being made.
+
 ## Selected Engineering Work
 
 ### [Autonomy Simulation Lab](https://github.com/Kushrishi/autonomy-simulation-lab)
@@ -40,6 +57,7 @@ Full-stack product prototype exploring source-grounded and safety-aware AI workf
 - ML systems and research engineering
 - Model evaluation, debugging, and reliability
 - Multimodal learning and intelligent sensing
+- Biomedical and optical measurement systems
 - PNT/GNSS, estimation, and real-world measurement systems
 
 ## Technical Stack
@@ -47,6 +65,7 @@ Full-stack product prototype exploring source-grounded and safety-aware AI workf
 - **Languages:** Python, TypeScript, C++, SQL
 - **ML:** PyTorch, Hugging Face Transformers, PEFT/LoRA, fine-tuning, model evaluation
 - **Engineering:** Linux, Git, Docker, APIs, testing, CI/CD
+- **Research:** experimental design, reproducible evaluation, signal processing, measurement validation
 - **Domain:** PNT/GNSS, estimation, sensing, spatial measurement
 
 ## Links
