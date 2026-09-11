@@ -57,6 +57,7 @@ Full-stack product prototype exploring source-grounded and safety-aware AI workf
 - ML systems and research engineering
 - Model evaluation, debugging, and reliability
 - Multimodal learning and intelligent sensing
+- Biomedical and optical sensing
 - Biomedical and optical measurement systems
 - PNT/GNSS, estimation, and real-world measurement systems
 
