@@ -28,6 +28,8 @@ An audit found that the historical intensity perturbation was likely too small t
 
 **Status:** private research; active validation and methodology work. No clinical-use claims.
 
+[Research page](https://kushrishi.com/research/truemargin)
+
 ## Selected Engineering Work
 
 ### [CareBridge Canada](https://github.com/Kushrishi/carebridge-canada)
