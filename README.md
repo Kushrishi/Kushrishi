@@ -12,27 +12,21 @@ Independent ML research focused on a practical debugging question:
 
 > **When a model regresses after retraining, can we identify which training change caused it?**
 
-The project uses controlled fine-tuning experiments, behavioral evaluation, candidate ranking, retraining interventions, and explicit verification to distinguish suspicious training changes from changes that actually recover affected behavior.
+The project uses controlled training experiments, behavioral evaluation, candidate ranking, counterfactual retraining, and explicit verification to distinguish suspicious training changes from changes that actually recover affected behavior.
 
-The work has progressed through multiple experiment generations, including cases where localization succeeded but unique causal certification did not. Current work is moving toward more realistic natural-language regression settings with explicit variability controls.
+Experiments 000–008 built a controlled synthetic test series and exposed an important limitation: the planted root could be localized and its restoration could fully recover the target while non-root restorations also produced material recovery. Experiment 009 is now moving to a natural-language Banking77 setting with prospectively frozen regression gates, paired training trajectories, and explicit stochastic-variability controls.
 
 [Research page](https://kushrishi.com/research/model-regression-forensics)
 
-## Selected Private Research
+## Active Private Research
 
 ### TrueMargin
 
-Medical-imaging research on whether registration uncertainty is actually calibrated and informative about spatial error. The project combines public medical imaging, deformable registration, uncertainty estimation, patient-level evaluation, conformal methods, known-ground-truth validation, reproducibility tooling, and explicit investigation of failure modes.
+Medical-imaging research asking whether registration uncertainty is not only calibrated in aggregate, but actually informative about spatial registration error point-by-point. The project combines public medical imaging, deformable registration, uncertainty estimation, patient-level evaluation, prospective protocols, known-deformation validation, reproducibility tooling, and explicit investigation of failure modes.
 
-**Status:** private research; validation and methodology work ongoing. No clinical-use claims.
+A prospectively corrected intensity-perturbation ensemble did not meet its frozen promotion criteria, and that negative result was preserved rather than tuned away. Current work is testing registration convergence before the next uncertainty mechanism is selected prospectively.
 
-### Restoration Interface Sensing
-
-Research into longitudinal optical sensing around existing dental restorations. The project asks whether repeated SWIR measurements can separate meaningful physical change from positioning, hydration, illumination, and other measurement variability.
-
-Public-data validation, cross-wavelength registration, and a held-out nuisance-robustness study have been completed. Physical bench repeatability is the next scientific gate.
-
-**Status:** early private research. No diagnostic or clinical-use claims.
+**Status:** private research; active validation and methodology work. No clinical-use claims.
 
 ## Selected Engineering Work
 
@@ -53,17 +47,17 @@ Completed v1.0 autonomy/localization environment combining BFS, A*, Dijkstra, we
 
 - ML systems and research engineering
 - model evaluation, debugging, and reliability
-- uncertainty and calibration
-- evidence-grounded AI systems
-- multimodal and intelligent sensing
-- reproducible experimentation with real-world data
+- uncertainty, calibration, and scientific ML
+- evidence-grounded and agentic AI systems
+- reproducible experimentation and model lifecycle tooling
+- intelligent sensing, estimation, and physical-world measurement
 
 ## Technical Stack
 
 - **Languages:** Python, TypeScript, C++, SQL
 - **ML / AI:** PyTorch, Hugging Face Transformers, PEFT/LoRA, fine-tuning, model evaluation, RAG, LLM APIs
 - **Engineering:** Linux, Git, Docker, FastAPI, REST APIs, testing, CI/CD, SQL/data systems
-- **Research:** experimental design, reproducible evaluation, uncertainty/calibration, signal processing, measurement validation
+- **Research:** experimental design, reproducible evaluation, uncertainty/calibration, medical-image registration, signal processing, measurement validation
 - **Domain foundations:** PNT/GNSS, estimation, sensing, spatial measurement
 
 ## Links
