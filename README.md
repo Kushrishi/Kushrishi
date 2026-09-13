@@ -18,10 +18,11 @@ This distinction between ranking and verification is central to the project. A t
 
 **Current progress:**
 
-- Experiments 000 through 007 are complete.
-- Earlier experiments exposed misleading lexical shortcuts and cases where correct localization did not lead to recovery.
-- Later experiments showed that the benchmark itself must create a measurable, isolated regression before causal debugging can be evaluated.
-- **Experiment 008 is active.** Its design was fixed before result-bearing training began. The clean reference model scored **96/96** on held-out evaluation, and candidate-model evaluation is now underway.
+- Experiments 000 through 008 are complete.
+- Earlier experiments exposed misleading lexical shortcuts, invalid clean baselines, and cases where correct localization did not produce recovery.
+- Experiment 008 produced target-localized regressions in both frozen worlds and the task-aware diagnostic uniquely ranked the planted root first in both.
+- Restoring the planted root fully repaired the target with no protected-behavior degradation in both worlds, but some non-root restorations also produced material recovery, so unique causal certification failed.
+- The next phase moves to a more realistic natural-language regression setting with repeated, paired retraining and explicit variability controls.
 
 [Research page](https://kushrishi.com/research/model-regression-forensics)
 
