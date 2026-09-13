@@ -1,8 +1,8 @@
 # Kush Rishi
 
-Engineer working across **machine learning, research engineering, intelligent sensing, and reliable software systems**.
+GNSS Analyst at Xona and Geomatics Engineering graduate working across **machine learning, software systems, intelligent sensing, and model evaluation**.
 
-I am a Geomatics Engineering graduate and GNSS Analyst at Xona. My background spans software engineering, positioning and estimation, sensing, measurement systems, and independent ML research. Much of my work comes back to the same question: how do we know a model, estimate, or measurement is actually trustworthy?
+My background spans positioning and estimation, sensing, measurement systems, production software, and independent ML research. Much of my work comes back to the same question: **how do we know when a model, estimate, or measurement is wrong?**
 
 ## Flagship Research
 
@@ -22,7 +22,7 @@ Experiments 000–008 built a controlled synthetic test series. In Experiment 00
 
 ### TrueMargin
 
-Medical-imaging research asking whether registration uncertainty is actually informative about spatial registration error point-by-point, rather than only looking reasonable in aggregate.
+Medical-imaging research asking whether registration uncertainty is actually informative about spatial error at specific locations, rather than only looking reasonable in aggregate.
 
 An audit found that the historical intensity perturbation was likely too small to probe meaningful registration sensitivity. A scale-aware replacement was defined before testing, but none of the frozen settings passed the promotion gate. That negative result was kept. Current work is testing registration convergence before another uncertainty method is chosen.
 
@@ -37,7 +37,7 @@ An audit found that the historical intensity perturbation was likely too small t
 Healthcare-continuity prototype with two deliberately separate layers:
 
 - a **public React/TypeScript concept demo** using synthetic data and deterministic logic; and
-- a **private FastAPI/SQL/RAG prototype** for source-note retrieval, grounded generation, structured validation, audit trails, and runtime safety controls.
+- a **private FastAPI/SQL retrieval-backed AI prototype** for source-note retrieval, grounded generation, structured validation, audit trails, and runtime safety controls.
 
 The public repository shows the product experience; it does **not** contain the private backend or live AI implementation.
 
@@ -45,22 +45,13 @@ The public repository shows the product experience; it does **not** contain the 
 
 Completed v1.0 autonomy/localization environment combining BFS, A*, Dijkstra, weighted planning, dynamic replanning, noisy sensing, nonlinear range least squares, Kalman filtering, telemetry, automated testing, CI, and a deployed browser demo.
 
-## Current Focus
-
-- ML systems and research engineering
-- model evaluation, debugging, and reliability
-- uncertainty, calibration, and scientific ML
-- evidence-grounded AI systems
-- reproducible experimentation
-- intelligent sensing, estimation, and physical-world measurement
-
 ## Technical Stack
 
 - **Languages:** Python, TypeScript, C++, SQL
-- **ML / AI:** PyTorch, Hugging Face Transformers, PEFT/LoRA, fine-tuning, model evaluation, RAG, LLM APIs
-- **Engineering:** Linux, Git, Docker, FastAPI, REST APIs, testing, CI/CD, SQL/data systems
-- **Research:** experimental design, reproducible evaluation, uncertainty/calibration, medical-image registration, signal processing, measurement validation
-- **Domain foundations:** PNT/GNSS, estimation, sensing, spatial measurement
+- **ML:** PyTorch, Hugging Face Transformers, PEFT/LoRA, fine-tuning, model evaluation, RAG
+- **Engineering:** Linux, Git, Docker, FastAPI, REST APIs, testing, CI/CD, data systems
+- **Methods:** experimental design, uncertainty/calibration, estimation, signal processing, reproducible evaluation
+- **Domains:** PNT/GNSS, medical imaging, intelligent sensing
 
 ## Links
 
