@@ -12,7 +12,7 @@ Medical-image-computing research on whether local uncertainty from deformable im
 
 The source-pinned M4 known-ground-truth study completed across **30 synthetic cases and 10 held-out anatomies**. All **10 / 10** anatomy-level associations were positive, with median anatomy-level Spearman **0.6841** and a 95% anatomy-bootstrap interval of **[0.3048, 0.8284]**.
 
-The result is deliberately bounded. The promoted uncertainty signal outperformed residual and Jacobian-deviation comparators on the paired rank statistic in this study, but **did not establish superiority over inverse-consistency error**. Current M5 work focuses on comparator behavior, blind spots, and failure analysis rather than widening the claim.
+M5 is now complete and preserves the failure structure behind that aggregate result: **39 / 1,500** sampled locations met the frozen high-error/low-sigma blind-spot rule, and **6 / 30** deformation-specific case rankings were negative. The result remains deliberately bounded: the promoted uncertainty signal outperformed residual and Jacobian-deviation comparators on the paired rank statistic in this study, but **did not establish superiority over inverse-consistency error**. M6 is prospective calibration protocol design; numerical calibration remains unestablished.
 
 [Research page](https://kushrishi.com/research/truemargin)
 
