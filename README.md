@@ -1,58 +1,48 @@
 # Kush Rishi
 
-GNSS Analyst at Xona and Geomatics Engineering graduate working across **machine learning, software systems, intelligent sensing, and model evaluation**.
+GNSS Analyst at Xona and Geomatics Engineering graduate working on **reliable machine learning and sensing systems under uncertainty**.
 
-My background spans positioning and estimation, sensing, measurement systems, production software, and independent ML research. Much of my work comes back to the same question: **how do we know when a model, estimate, or measurement is wrong?**
+My foundation is in PNT/GNSS, sensing, estimation, and measurement systems. My independent research extends the same discipline into machine learning and medical image computing: define the failure precisely, separate signal from variability, test interventions prospectively, and keep claims inside the evidence.
 
 ## Flagship Research
 
-### [Model Regression Forensics](https://github.com/Kushrishi/model-regression-forensics)
+### [TrueMargin](https://github.com/Kushrishi/truemargin)
 
-Independent ML research focused on a practical debugging question:
+Medical-image-computing research on whether local uncertainty from deformable image registration contains useful information about true local spatial error.
 
-> **When a model regresses after retraining, can we identify which training change caused it?**
+The source-pinned M4 known-ground-truth study completed across **30 synthetic cases and 10 held-out anatomies**. All **10 / 10** anatomy-level associations were positive, with median anatomy-level Spearman **0.6841** and a 95% anatomy-bootstrap interval of **[0.3048, 0.8284]**.
 
-The project uses controlled training experiments, behavioral evaluation, candidate ranking, and counterfactual retraining to separate a plausible explanation from one that actually survives intervention.
-
-Experiments 000–008 built a controlled synthetic test series. In Experiment 008, the planted root was localized and restoring it fully recovered the target, but some non-root restorations also produced material recovery. Experiment 009 is now testing the method on a natural-language Banking77 task with paired training trajectories and explicit retraining-variability controls.
-
-[Research page](https://kushrishi.com/research/model-regression-forensics)
-
-## Active Private Research
-
-### TrueMargin
-
-Medical-imaging research asking whether registration uncertainty is actually informative about spatial error at specific locations, rather than only looking reasonable in aggregate.
-
-An audit found that the historical intensity perturbation was likely too small to probe meaningful registration sensitivity. A scale-aware replacement was defined before testing, but none of the frozen settings passed the promotion gate. That negative result was kept. Current work is testing registration convergence before another uncertainty method is chosen.
-
-**Status:** private research; active validation and methodology work. No clinical-use claims.
+The result is deliberately bounded. The promoted uncertainty signal outperformed residual and Jacobian-deviation comparators on the paired rank statistic in this study, but **did not establish superiority over inverse-consistency error**. Current M5 work focuses on comparator behavior, blind spots, and failure analysis rather than widening the claim.
 
 [Research page](https://kushrishi.com/research/truemargin)
 
-## Selected Engineering Work
+### [Model Regression Forensics](https://github.com/Kushrishi/model-regression-forensics)
 
-### [CareBridge Canada](https://github.com/Kushrishi/carebridge-canada)
+Independent ML research asking what evidence is sufficient to identify the training change responsible for a model regression rather than a merely correlated one.
 
-Healthcare-continuity prototype with two deliberately separate layers:
+Experiment 009 uses Banking77, paired retraining trajectories, explicit stochastic controls, and counterfactual restoration. The development pilot produced consistent root-vs-nuisance restoration separation, then exposed a structural mismatch between root and nuisance candidates.
 
-- a **public React/TypeScript concept demo** using synthetic data and deterministic logic; and
-- a **private FastAPI/SQL retrieval-backed AI prototype** for source-note retrieval, grounded generation, structured validation, audit trails, and runtime safety controls.
+**M3 is now complete:** a prospectively constructed structurally matched benchmark contains two five-candidate worlds in which every candidate uses the same 66-slot label-only change structure. **M4 is active** and will test competitive localization baselines before any later causal-certification claim. Successful localization and causal specificity on the new matched benchmark remain unestablished.
 
-The public repository shows the product experience; it does **not** contain the private backend or live AI implementation.
+[Research page](https://kushrishi.com/research/model-regression-forensics)
+
+## Selected Engineering
 
 ### [Autonomy Simulation Lab](https://github.com/Kushrishi/autonomy-simulation-lab)
 
-Completed v1.0 autonomy/localization environment combining BFS, A*, Dijkstra, weighted planning, dynamic replanning, noisy sensing, nonlinear range least squares, Kalman filtering, telemetry, automated testing, CI, and a deployed browser demo.
+Completed v1.0 autonomy and localization environment combining weighted planning, dynamic replanning, noisy sensing, nonlinear range least-squares localization, Kalman filtering, telemetry, automated testing, CI, and a deployed browser demo.
 
-## Technical Stack
+### [CareBridge Canada](https://github.com/Kushrishi/carebridge-canada)
 
-- **Languages:** Python, TypeScript, C++, SQL
-- **ML:** PyTorch, Hugging Face Transformers, PEFT/LoRA, fine-tuning, model evaluation, RAG
-- **Engineering:** Linux, Git, Docker, FastAPI, REST APIs, testing, CI/CD, data systems
-- **Methods:** experimental design, uncertainty/calibration, estimation, signal processing, reproducible evaluation
-- **Domains:** PNT/GNSS, medical imaging, intelligent sensing
+Healthcare-continuity prototype exploring source-grounded workflows, structured validation, auditability, and bounded AI behavior using synthetic data. The public React/TypeScript demo is intentionally separated from a private full-stack experimentation environment.
+
+## Technical Focus
+
+- **Reliable ML & evaluation:** behavioral testing, model regressions, counterfactual verification, uncertainty, reproducible experimentation
+- **Sensing, estimation & localization:** PNT/GNSS, state estimation, sensor fusion, localization, physical-world measurement
+- **Scientific & medical systems:** medical image registration, uncertainty analysis, controlled validation
+- **Research engineering:** Python, PyTorch, Linux, Git, CI, data pipelines, experiment tooling; growing C++ systems depth
 
 ## Links
 
-[Portfolio](https://kushrishi.com) · [LinkedIn](https://www.linkedin.com/in/kushrishi/) · [Model Regression Forensics](https://github.com/Kushrishi/model-regression-forensics)
+[Portfolio](https://kushrishi.com) · [LinkedIn](https://www.linkedin.com/in/kushrishi/) · [TrueMargin](https://github.com/Kushrishi/truemargin) · [Model Regression Forensics](https://github.com/Kushrishi/model-regression-forensics)
