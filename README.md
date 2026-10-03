@@ -2,7 +2,7 @@
 
 GNSS Analyst at Xona and Geomatics Engineering graduate working on reliable machine learning, sensing, localization, and estimation.
 
-My professional foundation is in PNT/GNSS and measurement systems. My independent research focuses on evaluation, uncertainty, reproducible experiments, and claims that stay within the evidence.
+My professional foundation is in PNT/GNSS and measurement systems. My independent research uses controlled experiments to study model regressions and uncertainty in medical image registration.
 
 ## Featured work
 
