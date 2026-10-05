@@ -1,35 +1,16 @@
 # Kush Rishi
 
-GNSS Analyst at Xona. BSc Geomatics Engineering, University of Calgary, with distinction.
+GNSS Analyst at Xona. Geomatics Engineering graduate, University of Calgary, with distinction.
 
-I build Python and Linux tools for collecting, processing, and validating positioning data. My independent projects explore model regressions, image registration uncertainty, and state estimation.
+I build Python and Linux tools for positioning data. My independent work examines errors in models and estimation systems.
 
-## Selected work
+| Project | Question | Current evidence |
+| --- | --- | --- |
+| [TrueMargin](https://github.com/Kushrishi/truemargin) | Can registration disagreement reveal alignment error? | Controlled association, blind spots and conservative bounds. External validation pending. |
+| [Model Regression Forensics](https://github.com/Kushrishi/model-regression-forensics) | Which training change explains a regression? | Simple baselines solved both constructed worlds. Competing repairs can remain ambiguous. |
+| [Autonomy Simulation Lab](https://github.com/Kushrishi/autonomy-simulation-lab) | How do planning and localization behave under noise? | Working browser simulator and telemetry. Separate C++ replay pipeline in development. |
+| [PrairieReach](https://github.com/Kushrishi/carebridge-canada) | What needs review when a medical trip changes? | Fictional source-linked task prototype. Product validation next. |
 
-### [TrueMargin](https://github.com/Kushrishi/truemargin)
+The repositories contain the methods, tests, result records and limitations.
 
-Does variability between image registrations help identify spatial error? A controlled study covered 30 cases across 10 anatomies. The results show a useful but uneven association, blind spots, and conservative error bounds. Inverse-consistency error remains a strong comparison.
-
-[Research overview](https://kushrishi.com/research/truemargin) · [Technical report](https://github.com/Kushrishi/truemargin/blob/main/docs/technical_report.md)
-
-### [Model Regression Forensics](https://github.com/Kushrishi/model-regression-forensics)
-
-A study of regressions after training-data changes. Simple baselines ranked the planted change first in both constructed Banking77 worlds; gradient-based methods ranked it first in one. The repository also includes a release comparator and a small example showing why a successful repair does not uniquely identify the cause.
-
-[Research overview](https://kushrishi.com/research/model-regression-forensics)
-
-### [Autonomy Simulation Lab](https://github.com/Kushrishi/autonomy-simulation-lab)
-
-An interactive grid simulator with path planning, dynamic obstacles, noisy sensing, range localization, Kalman filtering, and telemetry analysis. The browser application is complete. A separate C++ replay tool currently validates recordings and decodes PNG frames.
-
-[Interactive demo](https://kushrishi.github.io/autonomy-simulation-lab/)
-
-### [PrairieReach](https://github.com/Kushrishi/carebridge-canada)
-
-A synthetic rural care-access prototype, evolved from CareBridge. It tracks task owners, source instructions and arrangements around a booked visit. A booking change marks affected steps for review. Its usefulness compared with a shared checklist is the next product question.
-
-[Project overview](https://kushrishi.com/projects/prairiereach) · [Synthetic demo](https://kushrishi.github.io/carebridge-canada/)
-
-Python · Linux · PyTorch · GNSS/PNT · localization · state estimation · ML evaluation
-
-[Portfolio](https://kushrishi.com) · [CV](https://kushrishi.com/cv) · [LinkedIn](https://www.linkedin.com/in/kushrishi/)
+[Website](https://kushrishi.com) · [Experience and CV](https://kushrishi.com/cv) · [LinkedIn](https://www.linkedin.com/in/kushrishi/)
