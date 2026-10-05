@@ -14,7 +14,7 @@ Does variability between image registrations help identify spatial error? A cont
 
 ### [Model Regression Forensics](https://github.com/Kushrishi/model-regression-forensics)
 
-A study of regressions after training-data changes. Simple baselines outperformed gradient-based diagnostics across the two constructed Banking77 worlds. The repository also includes a release comparator and a small example showing why a successful repair does not uniquely identify the cause.
+A study of regressions after training-data changes. Simple baselines ranked the planted change first in both constructed Banking77 worlds; gradient-based methods ranked it first in one. The repository also includes a release comparator and a small example showing why a successful repair does not uniquely identify the cause.
 
 [Research overview](https://kushrishi.com/research/model-regression-forensics)
 
@@ -23,6 +23,12 @@ A study of regressions after training-data changes. Simple baselines outperforme
 An interactive grid simulator with path planning, dynamic obstacles, noisy sensing, range localization, Kalman filtering, and telemetry analysis. The browser application is complete. A separate C++ replay tool currently validates recordings and decodes PNG frames.
 
 [Interactive demo](https://kushrishi.github.io/autonomy-simulation-lab/)
+
+### [PrairieReach](https://github.com/Kushrishi/carebridge-canada)
+
+A synthetic rural care-access prototype, evolved from CareBridge. It tracks task owners, source instructions and arrangements around a booked visit. A booking change marks affected steps for review. Its usefulness compared with a shared checklist is the next product question.
+
+[Project overview](https://kushrishi.com/projects/prairiereach) · [Synthetic demo](https://kushrishi.github.io/carebridge-canada/)
 
 Python · Linux · PyTorch · GNSS/PNT · localization · state estimation · ML evaluation
 
