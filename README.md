@@ -6,9 +6,9 @@ GNSS Analyst at Xona in Montréal. BSc Geomatics Engineering, University of Calg
 
 ### Model Regression Forensics
 
-What evidence can explain a regression after retraining? In two constructed Banking77 worlds, simple baselines found both planted changes; model-based diagnostics added no consistent top-1 benefit. A separate fixture demonstrates ambiguous repairs.
+Compare saved classification predictions, check release requirements and inspect changed cases in a portable report. The research study found no consistent diagnostic benefit over simple baselines; a separate fixture demonstrates ambiguous repairs.
 
-[Code](https://github.com/Kushrishi/model-regression-forensics) · [Visual study](https://kushrishi.com/research/model-regression-forensics) · [Report](https://github.com/Kushrishi/model-regression-forensics/blob/main/research/M4_TECHNICAL_REPORT.md)
+[Code](https://github.com/Kushrishi/model-regression-forensics) · [Run the example](https://github.com/Kushrishi/model-regression-forensics/blob/main/docs/deployment-comparison.md) · [Visual study](https://kushrishi.com/research/model-regression-forensics) · [Report](https://github.com/Kushrishi/model-regression-forensics/blob/main/research/M4_TECHNICAL_REPORT.md)
 
 ### Autonomy Simulation Lab
 
