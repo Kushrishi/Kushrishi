@@ -12,7 +12,7 @@ What evidence can explain a regression after retraining? In two constructed Bank
 
 ### Autonomy Simulation Lab
 
-How can sensing and estimation assumptions be made inspectable? Browser v1 is stable. The separate C++ replay foundation validates manifests, timestamps and file hashes, then decodes bounded PNG inputs. Preprocessing and inference are next.
+How can sensing and processing changes be made inspectable? Browser v1 demonstrates planning and localization. The separate C++/Python replay tool validates recording identity, executes CPU inference and compares configurations. A 108-frame recorded example is retained; desktop acceptance and independent first use remain open.
 
 [Code](https://github.com/Kushrishi/autonomy-simulation-lab) · [System overview](https://kushrishi.com/projects/autonomy-simulation-lab) · [Live simulator](https://kushrishi.github.io/autonomy-simulation-lab/)
 
