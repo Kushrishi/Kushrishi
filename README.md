@@ -12,7 +12,7 @@ Compare saved classification predictions, check release requirements and inspect
 
 ### Autonomy Simulation Lab
 
-How can sensing and processing changes be made inspectable? Browser v1.0.2 demonstrates planning and localization and is in maintenance. The separate C++/Python replay tool validates recording identity, executes CPU inference and compares configurations. A center-crop decode optimization reduced median whole-process wall time by 8.9749% across three matched 108-frame pairs, with exact recorded output parity. This is one Linux host, one model and one workload; desktop acceptance and independent first use remain open.
+How can sensing and processing changes be made inspectable? Browser v1.0.2 demonstrates planning and localization and is in maintenance. The separate C++/Python replay tool validates recording identity, executes CPU inference and compares configurations. A center-crop decode optimization reduced median whole-process wall time by 8.9749% across three matched 108-frame pairs, with exact recorded output parity. This is one Linux host, one model and one workload; owner-side Mac graphical inspection is complete, while independent first use remains unestablished.
 
 [Code](https://github.com/Kushrishi/autonomy-simulation-lab) · [System overview](https://kushrishi.com/projects/autonomy-simulation-lab) · [Live simulator](https://kushrishi.github.io/autonomy-simulation-lab/)
 
