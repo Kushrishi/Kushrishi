@@ -1,27 +1,27 @@
 # Kush Rishi
 
-**ML systems, evaluation & spatial intelligence.**
+GNSS Analyst at Xona in Montréal. BSc in Geomatics Engineering, University of Calgary, with distinction.
 
-GNSS Analyst at Xona in Montréal. BSc Geomatics Engineering, University of Calgary, with distinction. I build software and study what the evidence says about model and measurement errors.
+I build Python and C++ tools for measurement and model evaluation. My research interests are reliable machine learning for physiological signals and healthcare monitoring.
 
-### Model Regression Forensics
-
-Compare saved classification predictions, check release requirements and inspect changed cases in a portable report. The research study found no consistent diagnostic benefit over simple baselines; a separate fixture demonstrates ambiguous repairs.
-
-[Code](https://github.com/Kushrishi/model-regression-forensics) · [Run the example](https://github.com/Kushrishi/model-regression-forensics/blob/main/docs/deployment-comparison.md) · [Visual study](https://kushrishi.com/research/model-regression-forensics) · [Report](https://github.com/Kushrishi/model-regression-forensics/blob/main/research/M4_TECHNICAL_REPORT.md)
+## Selected work
 
 ### Autonomy Simulation Lab
 
-How can sensing and processing changes be made inspectable? Browser v1.0.2 demonstrates planning and localization and is in maintenance. The separate C++/Python replay tool validates recording identity, executes CPU inference and compares configurations. A center-crop decode optimization reduced median whole-process wall time by 8.9749% across three matched 108-frame pairs, with exact recorded output parity. This is one Linux host, one model and one workload; owner-side Mac graphical inspection is complete, while independent first use remains unestablished.
+C++/Python tools for recording replay, CPU inference and configuration comparison, alongside a browser planning and localization simulator.
 
-[Code](https://github.com/Kushrishi/autonomy-simulation-lab) · [System overview](https://kushrishi.com/projects/autonomy-simulation-lab) · [Live simulator](https://kushrishi.github.io/autonomy-simulation-lab/)
+[Code](https://github.com/Kushrishi/autonomy-simulation-lab) · [Engineering case study](https://github.com/Kushrishi/autonomy-simulation-lab/blob/main/native/CONTROLLED_REPLAY_CASE_STUDY.md) · [Demo](https://kushrishi.github.io/autonomy-simulation-lab/)
+
+### Model Regression Forensics
+
+Compare saved classifier predictions and inspect changes in a local report. The accompanying study found no consistent diagnostic benefit over simple baselines.
+
+[Code](https://github.com/Kushrishi/model-regression-forensics) · [Example](https://github.com/Kushrishi/model-regression-forensics/blob/main/docs/deployment-comparison.md) · [Research report](https://github.com/Kushrishi/model-regression-forensics/blob/main/research/M4_TECHNICAL_REPORT.md)
 
 ### TrueMargin
 
-When does registration uncertainty reveal spatial error? Controlled studies found useful rank information alongside case reversals, blind spots and conservative bounds. Independent landmark validation is next.
+Controlled experiments on image-registration uncertainty, including failure cases and calibrated error bounds. No advantage over inverse-consistency error was established. Further external validation is deferred.
 
-[Code](https://github.com/Kushrishi/truemargin) · [Visual study](https://kushrishi.com/research/truemargin) · [Report](https://github.com/Kushrishi/truemargin/blob/main/docs/technical_report.md)
+[Code](https://github.com/Kushrishi/truemargin) · [Research report](https://github.com/Kushrishi/truemargin/blob/main/docs/technical_report.md)
 
----
-
-[Website](https://kushrishi.com) · [Experience & CV](https://kushrishi.com/cv) · [LinkedIn](https://www.linkedin.com/in/kushrishi/)
+[Website](https://kushrishi.com) · [CV](https://kushrishi.com/cv) · [LinkedIn](https://www.linkedin.com/in/kushrishi/)
