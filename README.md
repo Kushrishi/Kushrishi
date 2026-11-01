@@ -2,13 +2,13 @@
 
 **GNSS Analyst at Xona**
 
-Geomatics Engineering graduate from the University of Calgary, with distinction. I work with positioning data. My independent projects explore sensing software and model evaluation.
+Geomatics Engineering graduate from the University of Calgary, with distinction. I work with positioning data. My independent projects cover simulation, machine learning and data analysis.
 
 ## Selected projects
 
 ### Autonomy Simulation Lab
 
-A planning and localization simulator, plus C++/Python tools for replaying sensor recordings and comparing inference outputs.
+A planning and localization simulator, plus C++/Python tools for replaying recorded data and comparing model outputs.
 
 [Code](https://github.com/Kushrishi/autonomy-simulation-lab) · [Demo](https://kushrishi.github.io/autonomy-simulation-lab/)
 
