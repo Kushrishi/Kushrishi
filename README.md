@@ -6,17 +6,17 @@ Geomatics Engineering graduate from the University of Calgary, with distinction.
 
 ## Selected projects
 
-### Autonomy Simulation Lab
-
-A planning and localization simulator, plus C++/Python tools for replaying recorded data and comparing model outputs.
-
-[Code](https://github.com/Kushrishi/autonomy-simulation-lab) · [Demo](https://kushrishi.github.io/autonomy-simulation-lab/)
-
 ### Model Regression Forensics
 
 Compare classifier predictions, check evaluation requirements and inspect changes in a local HTML report.
 
 [Code](https://github.com/Kushrishi/model-regression-forensics) · [Example](https://github.com/Kushrishi/model-regression-forensics/blob/main/docs/deployment-comparison.md)
+
+### Autonomy Simulation Lab
+
+A planning and localization simulator, plus C++/Python tools for replaying recorded data and comparing model outputs.
+
+[Code](https://github.com/Kushrishi/autonomy-simulation-lab) · [Demo](https://kushrishi.github.io/autonomy-simulation-lab/)
 
 ### TrueMargin
 
