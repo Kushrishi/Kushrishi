@@ -2,26 +2,26 @@
 
 **GNSS Analyst at Xona**
 
-BSc in Geomatics Engineering, University of Calgary, with distinction. I work with positioning data and build Python and C++ tools for measurement and evaluation.
+Geomatics Engineering graduate from the University of Calgary, with distinction. I work with positioning data. My independent projects explore sensing software and model evaluation.
 
 ## Selected projects
 
 ### Autonomy Simulation Lab
 
-A browser planning and localization simulator, with a separate C++/Python tool for recording replay and inference comparison.
+A planning and localization simulator, plus C++/Python tools for replaying sensor recordings and comparing inference outputs.
 
-[Code](https://github.com/Kushrishi/autonomy-simulation-lab) · [Case study](https://github.com/Kushrishi/autonomy-simulation-lab/blob/main/native/CONTROLLED_REPLAY_CASE_STUDY.md) · [Demo](https://kushrishi.github.io/autonomy-simulation-lab/)
+[Code](https://github.com/Kushrishi/autonomy-simulation-lab) · [Demo](https://kushrishi.github.io/autonomy-simulation-lab/)
 
 ### Model Regression Forensics
 
-Compare saved classifier predictions and inspect changes in a local report. The accompanying study found no consistent diagnostic benefit over simple baselines.
+Compare classifier predictions, check evaluation requirements and inspect changes in a local HTML report.
 
-[Code](https://github.com/Kushrishi/model-regression-forensics) · [Example](https://github.com/Kushrishi/model-regression-forensics/blob/main/docs/deployment-comparison.md) · [Report](https://github.com/Kushrishi/model-regression-forensics/blob/main/research/M4_TECHNICAL_REPORT.md)
+[Code](https://github.com/Kushrishi/model-regression-forensics) · [Example](https://github.com/Kushrishi/model-regression-forensics/blob/main/docs/deployment-comparison.md)
 
 ### TrueMargin
 
-Controlled experiments on image-registration uncertainty, including failure cases and calibrated error bounds. No advantage over inverse-consistency error was established. Further external validation is deferred.
+Experiments on image-registration error and uncertainty.
 
-[Code](https://github.com/Kushrishi/truemargin) · [Report](https://github.com/Kushrishi/truemargin/blob/main/docs/technical_report.md)
+[Code](https://github.com/Kushrishi/truemargin) · [Technical report](https://github.com/Kushrishi/truemargin/blob/main/docs/technical_report.md)
 
 [Website](https://kushrishi.com) · [CV](https://kushrishi.com/cv) · [LinkedIn](https://www.linkedin.com/in/kushrishi/)
