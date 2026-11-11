@@ -8,13 +8,13 @@ Geomatics Engineering graduate from the University of Calgary, with distinction.
 
 ### Capsule Review
 
-Local capsule-endoscopy viewer and fixed-budget frame-selection experiments. The locked 10% comparison did not improve annotation-run recall over uniform sampling; no clinical benefit is established.
+Local capsule-endoscopy viewer and fixed-budget frame-selection experiments. At 10% review workload, mean annotation-run recall was 49.35% for score-per-bin selection and 50.62% for uniform sampling across six exams with positive runs. Annotation runs are not expert-adjudicated lesions.
 
 [Code](https://github.com/Kushrishi/capsule-review-public) · [Research summary](https://github.com/Kushrishi/capsule-review-public/blob/main/docs/RESEARCH_COLLABORATION_BRIEF.md)
 
 ### TrueMargin
 
-Controlled experiments on image-registration error and uncertainty. Ensemble spread did not establish an advantage over inverse-consistency error.
+Image-registration experiments on 30 controlled cases across ten anatomies. Median anatomy-level correlation was 0.6841 for spread and 0.7203 for inverse-consistency error.
 
 [Code](https://github.com/Kushrishi/truemargin) · [Technical report](https://github.com/Kushrishi/truemargin/blob/main/docs/technical_report.md)
 
