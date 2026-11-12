@@ -2,7 +2,7 @@
 
 **GNSS Analyst at Xona**
 
-I graduated with distinction in Geomatics Engineering from the University of Calgary. My work at Xona focuses on GNSS and positioning data, while my independent projects explore biomedical imaging, machine-learning evaluation, and planning and localization simulation.
+I graduated with distinction in Geomatics Engineering from the University of Calgary. My work at Xona focuses on GNSS and positioning data, while my independent projects range from biomedical imaging and model evaluation to simulation software for planning and localization.
 
 ## Selected projects
 
