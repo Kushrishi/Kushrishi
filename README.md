@@ -2,7 +2,7 @@
 
 **GNSS Analyst at Xona**
 
-Geomatics Engineering graduate from the University of Calgary, with distinction. I work with positioning data. My independent projects cover biomedical imaging, machine learning evaluation and simulation.
+I graduated with distinction in Geomatics Engineering from the University of Calgary. My work at Xona focuses on GNSS and positioning data, while my independent projects explore biomedical imaging, machine-learning evaluation, and planning and localization simulation.
 
 ## Selected projects
 
@@ -20,7 +20,7 @@ Image-registration experiments on 30 controlled cases across ten anatomies. Medi
 
 ### Model Regression Forensics
 
-Compare classifier predictions, check evaluation requirements and inspect changes in a local HTML report.
+A local tool for comparing classifier predictions, checking release requirements and inspecting changed cases in an HTML report.
 
 [Code](https://github.com/Kushrishi/model-regression-forensics) · [Example](https://github.com/Kushrishi/model-regression-forensics/blob/main/docs/deployment-comparison.md)
 
